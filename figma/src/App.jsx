@@ -1,21 +1,23 @@
 import React from "react"
-import Hero from './Hero.jsx';
-import Navbar from './Navbar.jsx';
-import Brands from  "./Brands.jsx";
-import appfeatures from "./howitworks.jsx";
-import appfeatures2 from "./appfeatures2.jsx";
+import Navbar from "./Navbar.jsx"
+import Hero from "./Hero";
+import Brands from "./Brands";
+import Appfeatures from "./App-features.jsx"
 function App() {
  return (
-    <>
-    <Navbar></Navbar>
-    <Hero></Hero>
-    <Brands></Brands>
-    <appfeatures></appfeatures>
-    <appfeatures2></appfeatures2>
-    </>
-   
+   <>
+   <Navbar />
+   <div></div>
+   <Hero />
+   <div></div>
+   <Brands />
+   <div></div>
+   <Appfeatures />
+   </>
  )
-    
-
 }
+
+
+
+
 export default App
